@@ -1,0 +1,11 @@
+list_a = [('apple', 'banana', 'orange', 'grapes'), ('cricket', 'football', 'hockey'), ('car', 'bicycle', 'bus')]
+# Write your code here
+n=int(input())
+result=[]
+for i in range(n):
+    l=input().split()
+    l=[int(j) for j in l]
+    first=l[0]
+    second=l[1]
+    result.append(list_a[first][second])
+print(result)
