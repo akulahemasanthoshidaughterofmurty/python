@@ -1,0 +1,8 @@
+n=int(input())
+result_list=[]
+for i in range(n):
+    l=input().split()
+    l=[int(j) for j in l]
+    max_value=max(l)
+    result_list.append(max_value)
+print(result_list)
