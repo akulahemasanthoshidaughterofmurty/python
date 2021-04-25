@@ -1,0 +1,13 @@
+def gcd1(a,b):
+    if(a==0):
+        print(b)
+    elif(b==0):
+        print(a)
+    elif(a<b):
+        a,b=b,a
+        gcd1(a%b,b)
+    else:
+        gcd1(a%b,b)
+             
+
+gcd1(24,6)
